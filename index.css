@@ -1,0 +1,39 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.header {
+  border: 1rem solid red;
+  margin-bottom: auto;
+}
+
+.footer {  
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin: 0;
+
+  background-color: gray;
+  color: white;
+}
+
+.left-links {
+  margin-left: auto;
+  gap: 20px;
+  display: flex;
+  
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
