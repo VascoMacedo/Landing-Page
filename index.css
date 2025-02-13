@@ -16,11 +16,9 @@ body {
   justify-content: space-between;
   align-items: center;
   padding-left: 75px;
-  padding-right: 100px;
-  
+  padding-right: 100px;  
 
-  background-color: gray;
-  color: white;
+  background-color: #1f2937;  
 }
 
 .footer {  
@@ -31,13 +29,23 @@ body {
   align-items: center;
   padding: 30px;
   
-  background-color: gray;  
+  background-color: #1f2937;
+  color: #F9FAF8;
+}
+
+
+.left-links {
+  font-size: 24px;
+  color: #F9FAF8;
 }
 
 .right-links {
   display: flex;
   justify-content: space-between;
   gap: 30px;
+
+  font-size: 18px;
+  color: #E5E7EB;
 }
 
 .content {
@@ -54,14 +62,13 @@ body {
 }
 
 
+li {
+  list-style: none;  
+}
 
 a {
   text-decoration: none;
   color: white;
-}
-
-li {
-  list-style: none;  
 }
 
 .card {
@@ -87,8 +94,6 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  margin-left: 300px;
-  margin-right: 300px;
+  
   width: 100%;
 }
