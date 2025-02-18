@@ -69,13 +69,18 @@ a {
   color: white;
 }
 
-.card {
+.card1 {
   /*border: 1px solid red;*/
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);  
-  background-color: green;
+  background-color: #1f2937;
+  color: #F9FAF8;
 
   flex-grow: 1;
   flex-basis: auto;
+
+  display: flex;  
+  justify-content: space-around;
+  align-items: center;
 
   padding: 16px;
   width: 100%;
@@ -199,4 +204,26 @@ cite {
 figcaption {
   display: flex;
   justify-content: flex-end;
+}
+
+.card1 img {
+  width: 500px;
+  height: 250px;
+
+  border: 3px solid lightblue;
+  border-radius: 10px;
+}
+
+.card1 p {
+  font-size: 36px;
+  font-weight: bold;
+  font-style: italic;  
+}
+
+.card1 div {
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: center;
+  align-items: self-start;
 }
