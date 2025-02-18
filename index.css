@@ -70,7 +70,7 @@ a {
 }
 
 .card {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);  
   background-color: green;
 
@@ -83,7 +83,7 @@ a {
 }
 
 .card2 {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);  
   background-color: white;
   text-align: center;
@@ -97,7 +97,7 @@ a {
 }
 
 .card3 {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);  
   background-color: #E5E7EB;
 
@@ -113,7 +113,7 @@ a {
 }
 
 .card4 {
-  border: 1px solid red;
+  /*border: 1px solid red;`*/
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);  
   
 
@@ -183,4 +183,20 @@ img {
 
   border: 3px solid lightblue;
   border-radius: 10px;
+}
+
+blockquote {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+}
+
+cite {
+  font-weight: bolder;
+}
+
+figcaption {
+  display: flex;
+  justify-content: flex-end;
 }
