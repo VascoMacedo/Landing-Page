@@ -255,3 +255,15 @@ figcaption {
   margin-bottom: 10px;
   margin-top: 0px;
 }
+
+.box div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.box div p {
+  font-size: 12px;
+  font-weight: lighter;
+}
